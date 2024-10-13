@@ -1,4 +1,6 @@
-SA4-JavaApp
+<h1 align="center"> SA4-JavaApp </h1>
+
+
 
 O projeto consiste em um sistema de gerenciamento de estudantes e professores, desenvolvido em Java utilizando o padrão DAO (Data Access Object) e implementando operações de CRUD (Create, Read, Update, Delete). A arquitetura segue os princípios da Programação Orientada a Objetos (POO), com herança e polimorfismo, integrando o sistema a um banco de dados relacional por meio da classe Conexao, responsável por estabelecer a conexão com o banco de dados.
 
