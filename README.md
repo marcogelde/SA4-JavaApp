@@ -1,17 +1,17 @@
 # SA4-JavaApp
 
-O projeto consiste em um sistema de gerenciamento de estudantes e professores, desenvolvido em **Java** utilizando o padrão **DAO (Data Access Object)** e implementando operações de **CRUD (Create, Read, Update, Delete)**. A arquitetura segue os princípios da **Programação Orientada a Objetos (POO)**, com herança e polimorfismo, integrando o sistema a um banco de dados relacional por meio da classe `Conexao`, responsável por estabelecer a conexão com o banco de dados.
+O projeto consiste em um sistema de gerenciamento de estudantes e professores, desenvolvido em **Java** utilizando o padrão **DAO (Data Access Object)** e implementando operações de **CRUD (Create, Read, Update, Delete)**. A arquitetura segue os princípios da **Programação Orientada a Objetos (POO)**, com herança e polimorfismo, integrando o sistema a um banco de dados relacional por meio da classe **Conexao**, responsável por estabelecer a conexão com o banco de dados.
 
 ## Estrutura de Classes
 
 ### Classe Pessoa
-A classe `Pessoa` é a superclasse do projeto, contendo os atributos comuns a todas as pessoas gerenciadas pelo sistema:
+A classe **Pessoa** é a superclasse do projeto, contendo os atributos comuns a todas as pessoas gerenciadas pelo sistema:
 
-- `id`: identificador único para cada pessoa.
-- `nome`: nome da pessoa.
-- `email`: endereço de e-mail da pessoa.
+- **id**: identificador único para cada pessoa.
+- **nome**: nome da pessoa.
+- **email**: endereço de e-mail da pessoa.
 
-A classe também possui métodos comuns, como getters e setters para os atributos, além de métodos de exibição de dados como `toString()`.
+A classe também possui métodos comuns, como getters e setters para os atributos, além de métodos de exibição de dados como **toString()**.
 
 ### Classe Estudante (herda de Pessoa)
 A classe `Estudante` é uma subclasse de `Pessoa`, representando especificamente os estudantes. Ela adiciona o atributo:
